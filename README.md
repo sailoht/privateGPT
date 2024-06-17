@@ -17,7 +17,7 @@ pip3 install -r requirements.txt
 
 2. Run this commands
 ```shell
-cd privateGPT
+cd privateGPT.py
 poetry install
 poetry shell
 ```
