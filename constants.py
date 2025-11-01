@@ -6,7 +6,7 @@ load_dotenv()
 
 # Define the folder for storing database
 PERSIST_DIRECTORY = os.environ.get('PERSIST_DIRECTORY')
-
+MODEL_TYPE=os.environ.get("MODEL_TYPE=GPT4All")
 # Define the Chroma settings
 CHROMA_SETTINGS = Settings(
         chroma_db_impl='duckdb+parquet',
